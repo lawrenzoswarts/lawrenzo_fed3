@@ -1,0 +1,448 @@
+/* Static Styling */
+/*Body*/
+#BG{background-color: #121212;}
+
+/*header*/
+header
+{
+    background-color: #121212;
+    text-align: center;
+   
+}
+
+#BG
+{
+    /*background-color: #121212;*/
+
+    background-image: url("../Media/Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    display: inline;
+    text-align:    center;
+}
+
+
+
+nav ul a:hover 
+{
+    text-decoration: none;
+}
+
+.active_green
+{
+    background-color: #03fa6e;
+    color:rgb(29, 29, 29);
+    color:    #000000; 
+    border-radius: 11px;
+    padding:       10px 30px;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Ubuntu", sans-serif;
+    text-align:    center;
+    border-bottom-left-radius: 15px;
+    margin:        7px;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+}
+
+.active_blue
+{
+    background-color: #03fa6e;
+    color:rgb(29, 29, 29);
+    color:    #000000; 
+    border-radius: 11px;
+    padding:       10px 30px;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Ubuntu", sans-serif;
+    text-align:    center;
+    border-bottom-left-radius: 15px;
+    margin:        7px;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+}
+
+
+
+#LogoImage
+img {
+        text-align: center;
+        padding: 5px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #LogoImage2
+img {
+        border-radius: 16px;
+        padding: 5px;
+        width: 130px;
+        margin-left: 46%;
+        margin-top: -1%;
+    }
+    
+      
+
+      
+      body
+      {
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+
+img::after:hover
+{
+    width: 150px;
+    margin-left: 46%;
+    margin-top: -1%;
+    padding: 5px;
+}
+
+body
+{
+    background-color: #ffffff;
+    overflow-y: scroll !important;;
+}
+
+
+.Button
+{
+    color:    #03b8fa;
+    
+    border:        2px solid #03b8fa;
+    border-radius: 11px;
+    padding:       10px 30px;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Ubuntu", sans-serif;
+    text-align:    center;
+    border-bottom-left-radius: 15px;
+    margin:        7px;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+}
+
+.Button:hover
+
+{
+    background-color: #03b8fa;
+    color: #000000;
+
+}
+
+.Button1
+{
+    color:    #03fa6e;
+    border:        2px solid #03fa6e;
+    border-radius: 11px;
+    padding:       10px 30px;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Ubuntu", sans-serif;
+    text-align:    center;
+    border-bottom-left-radius: 15px;
+    margin:        7px;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+}
+
+.Button1:hover
+
+{
+    background-color: #03fa6e;
+    color: #000000;
+
+}
+
+footer
+{
+    background-color: #292929;
+    text-align: left;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+footer ul li
+{
+    text-decoration: none;
+    display: block;
+}
+
+small 
+{
+     color: #ffffff; 
+}
+
+footer img
+{
+    width: 10%;
+    margin-top: 25px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+footer img:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.row
+{
+    color: #000000;
+}
+
+#Btn
+{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    z-index: 99;
+    color: #03b8fa;
+    border: 1px solid #03b8fa;
+    background-color: transparent;
+}
+
+#Btn:hover
+{
+    background-color: #03b8fa;
+    color: #292929;
+}
+
+input[type="text"]::placeholder 
+{
+    color: #999;
+    font-style: italic;
+    text-indent: 7px;
+}
+
+input[type="email"]::placeholder 
+{
+    color: #999;
+    font-style: italic;
+    text-indent: 7px;
+}
+
+input[type="tel"]::placeholder 
+{
+    color: #999;
+    font-style: italic;
+    text-indent: 7px;
+}
+
+#Icon:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+a
+{
+    color: #03fa6e !important;
+}
+
+a:hover
+{
+    text-decoration: none !important;
+}
+
+label
+{
+    font-size: 18pt;
+    color: #03b8fa 
+}
+
+input, textarea
+{
+    width: 100%;
+    background: #fff;
+}
+
+#send{
+    background-color: transparent;
+    color: #03b8fa;
+    border: 2px solid #03b8fa;
+    border-radius: 11px;
+    padding: 10px 30px;
+    width: 20%;
+    text-align: center;
+}
+
+#send:hover
+{
+    background-color: #03b8fa;
+    color: #000000;
+    transition: 0.3s;
+    transform: translateX(30px);
+}
+
+#homeText
+{
+    font-size: 14pt;
+    font-style: normal;
+    color: #03fa6e;
+    text-decoration: none;
+    font-family: Monospace;
+    font-weight: 200;
+}
+
+h2
+{
+    color: #03b8fa;
+    font-family: fantasy;
+    font-weight: 200;
+    text-decoration: dashed #a2a2a2;
+}
+
+#Heading
+{
+    font-size: 36pt;
+    color: #03fa6e;
+    font-family: fantasy;
+    font-weight: 200;
+    text-decoration: dashed #a2a2a2;
+}
+
+
+#Body
+{
+    font-size: 12pt;
+    font-style: normal;
+    color: #a2a2a2;
+    text-decoration: none;
+    font-family: 'TT Supermolot Neue Cond';
+    font-weight: 200;
+    text-align: justify;
+}
+
+#Body2
+{
+    font-size: 24pt;
+    font-style: normal;
+    color: #a2a2a2;
+    text-decoration: underline;
+}
+
+.HomeImage:hover, #HomeImage2:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.HomeImage
+{
+
+    width: 4%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.HomeImageIcon
+{
+
+    width: 4%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+#Images
+{
+    width: 2%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.Images2
+{
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.Images3
+{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.blue_text
+{
+    
+    color: #a2a2a2;
+    font-weight: bold;
+    list-style-type: decimal;
+    font-size: 18px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.Images
+{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.GalImage
+{
+    max-width: 800px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.CarImage
+{
+    max-width: 800px;
+    max-height: 600px;
+
+    width: 60%;
+    height: 100%;
+    
+    margin-left: 20%;
+}
+
+#footer_links:hover
+{
+    color:#fff;
+}
+
+.FadeAnimation
+{
+    animation-name: Fade;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; /*How it handles the animation*/
+    animation-iteration-count: 1; /*Repeats*/
+    animation-fill-mode: forwards;
+}
+
+@keyframes Fade
+{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+
+
+  
+
+
